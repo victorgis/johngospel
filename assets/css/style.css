@@ -227,7 +227,7 @@ header.tribe-header {
   }
 
   .hero-button {
-    padding: 5px 8px;
+    padding: 8px 12px;
     border-radius: 5px;
     font-weight: 600;
     font-size: 13px;
@@ -329,12 +329,12 @@ section {
 
   }
   .johnGospel-quotes {
-    width: 85%;
-    margin-left: 10px;
+    width: 107%;
+    margin-left: 0px;
   }
 
   .johnGospel-quotes h1 {
-    font-size: 9px;
+    font-size: 14px;
     font-family: 'Montserrat';
     font-weight: 500;
 
@@ -342,7 +342,7 @@ section {
   
   .johnGospel-img {
     position: relative;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .img-jg {
     width: 112px;
