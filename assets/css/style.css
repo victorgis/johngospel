@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #3b4ef8;
+  color: #540D6E;
   text-decoration: none;
 }
 
 a:hover {
-  color: #6c7afa;
+  color: #540D6E;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #3b4ef8;
+  background: #540D6E;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #6272f9;
+  background: #540D6E;
   color: #fff;
 }
 
@@ -85,7 +85,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #3b4ef8;
+  border: 6px solid #540D6E;
   border-top-color: #e2e5fe;
   border-radius: 50%;
   width: 60px;
@@ -120,8 +120,8 @@ header.tribe-header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px;
-  height: 100px;
+  padding: 40px 0px;
+  /* height: 100px; */
   background: #fff;
 }
 
@@ -187,16 +187,27 @@ header.tribe-header {
     font-size: 20px;
     line-height: 24px;
   }
+  .hero-button {
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 13px;
+  }
 
   #hero .hero-img {
     max-width: 90%;
+  }
+  header.tribe-header {
+    height: 30px;
+    padding: 30px 0px;
   }
   
 }
 
 @media (max-height: 768px) {
-  header {
-    height: 42px;
+  header.tribe-header {
+    height: 30px;
+    padding: 30px 0px;
   }
   .tribe-logo {
     width: 200%;
@@ -216,8 +227,8 @@ header.tribe-header {
   }
 
   .hero-button {
-    padding: 12px;
-    border-radius: 8px;
+    padding: 5px 8px;
+    border-radius: 5px;
     font-weight: 600;
     font-size: 13px;
   }
@@ -1076,15 +1087,15 @@ section.countdown {
 .countdown-items {
   text-align: center;
 }
-.buttons-list {
-  list-style-type: none;
+.count-buttons {
+  /* list-style-type: none; */
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0px;
 }
 
-.buttons-list li {
+.buttons-list {
   background: #170C1B;
   color: #FFFFFF;
   margin: 0 5px;
@@ -1117,7 +1128,7 @@ section.countdown {
     position: relative;
     top: -6px;
   }
-  .buttons-list li {
+  .buttons-list {
     margin: 0 5px;
     padding: 5px 8px;
     border-radius: 3px;
@@ -2198,7 +2209,7 @@ section.newsletter-jg {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-.faq {
+/* .faq {
   padding: 60px 0;
 }
 
@@ -2247,7 +2258,7 @@ section.newsletter-jg {
 }
 
 .faq .faq-list .collapsed:hover {
-  color: #3b4ef8;
+  color: #540D6E;
 }
 
 .faq .faq-list .collapsed .icon-show {
@@ -2258,7 +2269,7 @@ section.newsletter-jg {
 .faq .faq-list .collapsed .icon-close {
   display: none;
   transition: 0.6s;
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact
@@ -2273,7 +2284,7 @@ section.newsletter-jg {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #3b4ef8;
+  color: #540D6E;
   padding: 8px;
 }
 
@@ -2359,7 +2370,7 @@ section.newsletter-jg {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #3b4ef8;
+  background: #540D6E;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -2368,7 +2379,7 @@ section.newsletter-jg {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #0a22f6;
+  background: #540D6E;
 }
 
 @keyframes animate-loading {
@@ -2489,7 +2500,7 @@ section.newsletter-jg {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #3b4ef8;
+  color: #540D6E;
 }
 
 #footer .footer-newsletter {
@@ -2529,7 +2540,7 @@ section.newsletter-jg {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #3b4ef8;
+  background: #540D6E;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
@@ -2537,7 +2548,7 @@ section.newsletter-jg {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #0a22f6;
+  background: #540D6E;
 }
 
 #footer .credits {
@@ -2550,7 +2561,7 @@ section.newsletter-jg {
   font-size: 18px;
   display: inline-block;
   background: #e7eafe;
-  color: #3b4ef8;
+  color: #540D6E;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -2562,7 +2573,7 @@ section.newsletter-jg {
 }
 
 #footer .social-links a:hover {
-  background: #3b4ef8;
+  background: #540D6E;
   color: #fff;
   text-decoration: none;
 }
