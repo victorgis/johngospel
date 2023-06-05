@@ -1495,7 +1495,43 @@ section.newsletter-jg {
   }
 }
 
+/* Footer section */
+footer#footer {
+  background: #3A3A3A;
+}
 
+div.social-links {
+  padding: 40px;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #e7eafe;
+  color: #3A3A3A;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 5px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  border: #fff solid 1px;
+  background: #3A3A3A;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer-left {
+    margin: auto;
+    max-width: 70%;
+  }
+}
 
 
 
