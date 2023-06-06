@@ -1488,7 +1488,7 @@ section.newsletter-jg {
   .newsletter-form div input {
     height: 50px;
     margin-top: 0px;
-    margin-bottom: -21px;
+    /* margin-bottom: -21px; */
   }
   .newsletter-submit button {
     padding: 15px;
@@ -1532,6 +1532,10 @@ div.social-links {
     max-width: 70%;
   }
 }
+
+/* #subject, #message {
+  margin-top: 20px;
+} */
 
 
 
